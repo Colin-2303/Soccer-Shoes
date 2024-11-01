@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@700&display=swap');
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/container.css");
+
+
+body {
+    font-family: "Lora", serif;
+    color: #333;
+    margin: 0;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6D71DD;
+    color: white;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px; 
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #f0f0f0;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.button-blue {
+    display: inline-block;
+    background-color: #6D71DD;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.button-blue:hover {
+    opacity: 0.8;
+}
